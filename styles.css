@@ -1,15 +1,16 @@
-body, html {
+body,
+html {
     margin: 0;
     padding: 0;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #000;  /* Black background for the page */
+    background-color: #000;
 }
 
 .background {
-    background-image: url('your-background-image-3.jpg'); /* Replace with your actual image path */
+    background-image: url('your-background-image-3.jpg');
     background-size: cover;
     background-position: center;
     position: absolute;
@@ -21,55 +22,53 @@ body, html {
 }
 
 .signup-form {
-    background-color: #799163; /* Solid white background */
-    width: 300px; /* Square dimensions */
+    background-color: #799163;
+    width: 300px;
     height: 300px;
     padding: 20px;
-    border-radius: 15px; /* Rounded corners */
+    border-radius: 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.5); /* Stronger shadow for contrast */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.signup-form .logo {
+    width: 100px;
+    /* Adjust the width as needed */
+    margin-bottom: 20px;
 }
 
 .signup-form h1 {
     text-align: center;
     margin-top: -20px;
-    margin-bottom: 40px; /* Space below header */
-    color: #EDE0A6; /* Red color for the header */
+    margin-bottom: 40px;
+    color: #EDE0A6;
 }
 
 .signup-form form {
-    width: 100%; /* Ensure form uses full width of the signup box */
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-input[type="email"] {
+input[type="email"],
+input[type="text"] {
     width: 80%;
     padding: 10px;
     margin: 10px;
-    border: 1px solid #507B58; /* Green border */
-    border-radius: 4px; /* Rounded corners */
-    color: #000; /* Black text */
-    background-color: #EDE0A6; /* White background to ensure text is readable */
-}
-
-input[type="name"] {
-    width: 80%;
-    padding: 10px;
-    border: 1px solid #507B58; /* Green border */
-    border-radius: 4px; /* Rounded corners */
-    color: #000; /* Black text */
-    background-color: #EDE0A6; /* White background to ensure text is readable */
+    border: 1px solid #507B58;
+    border-radius: 4px;
+    color: #000;
+    background-color: #EDE0A6;
 }
 
 button {
     width: 80%;
-    background-color: #AB3131; /* Green button */
-    color: #000; /* Black text */
+    background-color: #AB3131;
+    color: #000;
     border: none;
     padding: 10px;
     margin-top: 10px;
@@ -78,5 +77,5 @@ button {
 }
 
 button:hover {
-    background-color: #540202; /* Darker green on hover */
+    background-color: #540202;
 }
