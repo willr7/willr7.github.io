@@ -34,7 +34,7 @@ body, html {
 }
 
 .signup-form .logo {
-    width: 150px;  /* Increased the width of the logo */
+    width: 200px;  /* Increased the width of the logo */
     height: auto;  /* Maintain aspect ratio */
     margin-bottom: 10px; /* Adjusted margin to move the logo and text */
 }
