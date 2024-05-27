@@ -39,7 +39,7 @@ body, html {
     margin-bottom: 10px; /* Adjusted margin to move the logo and text */
 }
 
-.signup-form h1 {
+.signup-form h3 {
     text-align: center;
     margin-top: 10px; /* Adjust margin top if needed */
     margin-bottom: 10px; /* Reduced margin-bottom to make more space */
