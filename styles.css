@@ -34,15 +34,15 @@ body, html {
 }
 
 .signup-form .logo {
-    width: 100px;  /* Increased the width of the logo */
+    width: 150px;  /* Increased the width of the logo */
     height: auto;  /* Maintain aspect ratio */
     margin-bottom: 10px; /* Adjusted margin to move the logo and text */
 }
 
 .signup-form h1 {
     text-align: center;
-    margin-top: 0px; /* Adjust margin top if needed */
-    margin-bottom: 20px; /* Reduced margin-bottom to make more space */
+    margin-top: 10px; /* Adjust margin top if needed */
+    margin-bottom: 10px; /* Reduced margin-bottom to make more space */
     color: #EDE0A6;
 }
 
