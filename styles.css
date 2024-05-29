@@ -9,7 +9,7 @@ body, html {
 }
 
 .background {
-    background-image: url('your-background-image-3.png');
+    background-image: url('your-background-image-3.jpg');
     background-size: cover;
     background-position: center;
     position: absolute;
