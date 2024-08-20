@@ -1,0 +1,194 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* font-family:  */
+
+ 
+  
+}
+.open-sans-uniquifier {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    /* font-weight: weight; */
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+.inter-uniquifier {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+  }
+  
+
+/* .background {
+    background-image: url('Frame\ 4\ \(2\).png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+} */
+
+a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .white{
+    color: white;
+  }
+  
+  .bot-boxcolour{
+    background: #9A0C24;
+    border-radius: 10px;
+  }
+
+
+
+.logo {
+    width: 100%;
+    height: 100%;
+}
+
+.headingsize{
+    font-size: 24px;
+}
+
+/* box */
+.box{
+    background: #BCB179;
+    border-radius: 10px;
+    font-size: 20px;
+    
+}
+
+.min-content {
+    width: max-content;
+    padding: 6px 13px;
+}
+
+
+
+.faq-item {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    color: black;
+}
+
+.question h2 {
+    margin: 0;
+}
+
+.toggle-button {
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    outline: none;
+}
+
+.answer {
+    padding: 10px;
+    display: none;
+}
+
+.answer.open {
+    display: block;
+}
+
+
+.max-content {
+    width: max-content;
+    height: max-content;
+}
+
+.box-padding{
+   padding: 15px;
+   font-size: 33px
+}
+
+
+
+/* Media query for screens 768px and below */
+@media (max-width: 768px) {
+    .justify-content-center {
+        justify-content: flex-start!important;
+    }
+}
+
+
+
+
+.background {
+    background-image: url('Frame\ 4\ ByLatestSuffi.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    /* other styles */
+    position: relative; /* Ensure it has a stacking context */
+    z-index: 1; /* Ensure it's above other content */
+}
+
+.brown {
+    color: white;
+    background: url('Frame\ 4\ ByLatestSuffi.png');
+    background-size: cover;
+    background-position: center;
+    /* other styles */
+    position: relative; /* Ensure it has a stacking context */
+    z-index: 0; /* Lower than .background to ensure .background is above */
+}
+
+
+
+@media (max-width: 1024px) {
+    .box-padding {
+        padding: 15px;
+        font-size: 22px;
+    }
+
+
+}
+
+
+@media (max-width: 768px) {
+    .box {
+        background: #BCB179;
+        border-radius: 10px;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .box-padding {
+        padding: 15px;
+        font-size: 16px;
+    }
+
+
+}

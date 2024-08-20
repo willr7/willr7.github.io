@@ -1,0 +1,79 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+
+.background {
+    background-image: url('your-background-image-3.jpg');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup-form {
+    background-color: #799163;
+    width: 300px;
+    height: 350px; /* Increased height to accommodate the larger logo */
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+}
+
+.signup-form .logo {
+    width: 200px;  /* Increased the width of the logo */
+    height: auto;  /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Adjusted margin to move the logo and text */
+}
+
+.signup-form h3 {
+    text-align: center;
+    margin-top: 10px; /* Adjust margin top if needed */
+    margin-bottom: 10px; /* Reduced margin-bottom to make more space */
+    color: #EDE0A6;
+}
+
+.signup-form form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="email"], input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #507B58;
+    border-radius: 4px;
+    color: #000;
+    background-color: #EDE0A6;
+}
+
+button {
+    width: 80%;
+    background-color: #AB3131;
+    color: #000;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #540202;
+}
